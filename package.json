@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "quickpush": "git add . && git commit -m n\"Quick pushn\" && git push origin main"
+    "quickpush": "git add . && git commit -m \"Quick push\" && git push origin main"
   },
   "dependencies": {
     "react": "19.0.0-rc-66855b96-20241106",
