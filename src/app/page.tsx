@@ -1,12 +1,10 @@
-import styles from "./page.module.css";
+import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Benvenuto al mio sito</h1>
-      <p className={styles.description}>
-        Questo è il mio progetto Next.js con TypeScript, pronto per essere personalizzato!
-      </p>
-    </div>
+    <main className={styles.main}>
+      <h1 className={styles.title}>Benvenuto nel mio sito!</h1>
+      <p>Questa è la pagina principale del mio progetto Next.js.</p>
+    </main>
   );
 }
